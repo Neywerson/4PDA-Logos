@@ -1,0 +1,21 @@
+<svg width="120" height="120" version="1.1" viewBox="0 -154 120 120" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<defs>
+		<linearGradient id="b" x1="122" x2="122" y1="-40" y2="720" gradientTransform="matrix(.1609 0 0 .1579 -19.62 -147.7)" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#4371c1" offset="0"/>
+			<stop stop-color="#2d4f8c" offset="1"/>
+		</linearGradient>
+		<linearGradient id="a" x1="983.1" x2="983.1" y1="25" y2="999" gradientTransform="matrix(1.096 0 0 1.05 -54.28 -179.7)" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#fff" offset="0"/>
+			<stop stop-color="#91b6f7" offset="1"/>
+		</linearGradient>
+		<filter id="c" x="-.09375" y="-.09375" width="1.207" height="1.207" color-interpolation-filters="sRGB">
+			<feFlood flood-color="rgb(0,0,0)" flood-opacity=".7333" result="flood"/>
+			<feComposite in="flood" in2="SourceGraphic" operator="in" result="composite1"/>
+			<feGaussianBlur in="composite1" result="blur" stdDeviation="40"/>
+			<feOffset dx="20" dy="20" result="offset"/>
+			<feComposite in="SourceGraphic" in2="offset" result="composite2"/>
+		</filter>
+	</defs>
+	<path d="m1.942e-5 -154h120v120h-120z" fill="url(#b)" fill-rule="evenodd" stroke-miterlimit="2" stroke-width="0" style="paint-order:markers fill stroke"/>
+	<path transform="matrix(.1172 0 0 .1172 1.942e-5 -136)" d="m402-154-402 555v317h623v152h401v-1024zm222 256v340h-268z" fill="url(#a)" fill-rule="evenodd" filter="url(#c)"/>
+</svg>
